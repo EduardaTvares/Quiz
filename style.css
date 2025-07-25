@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Marcellus&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8ddf0;
+    color: rgb(112, 56, 75);
+    font-family: "cabin" , sans-serif;
+}
+
+header {
+    padding: 2rem;
+    background-color: rgb(255, 78, 167);
+    text-align: center;
+}
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+h2 {
+    color: rgb(70, 45, 21);
+}
+
+h1 {
+    font-size: 3rem; 
+}
+
+input[type="radio"] {
+    accent-color: rgb(255, 78, 167);
+}
+input[type="text"], input[type="password"], input[type="date"], input[type="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid rgb(255, 78, 167);
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: rgb(70, 45, 21);
+
+}
+
+select {
+    cursor: pointer;
+    background-color: rgb(255, 78, 167);
+    color: rgb(70, 45, 21);
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 10rem;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th { 
+    background-color: rgb(255, 78, 167);
+    color: rgb(70, 45, 21);
+    padding: 0.5rem;
+}
+
+td {
+    color: rgb(70, 45, 21);
+    padding: 0.4rem;
+    text-align: center;
+}
+
+details {
+    background-color: rgb(255, 78, 167);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+summary {
+    color: rgb(70, 45, 21);
+    margin: 0.5;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid rgb(70, 45, 21);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: rgb(70, 45, 21);
+    padding: 0 0.5rem;
+}
+
+textarea {
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 78, 167);
+    background-color: transparent;
+
+}
+button{
+    background-color: rgb(255, 78, 167);
+    border: deeppink;
+    padding: 0.8rem;
+    color: rgb(70, 45, 21);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(255, 78, 167);
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer {
+    color: rgb(70, 45, 21);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
